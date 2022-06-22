@@ -17,7 +17,7 @@ Refer to _slides.pdf_ for further details.
 - Copy paste [this script](https://bootstrap.pypa.io/get-pip.py) and install pip executing it in a terminal located in Blender-python folder:
     - _./python.exe get_pip.py_
 - In Blender python folder execute this command:
-    - _./python.exe -m pip install pandas numpy scipy tqdm bpycv_
+    - _./python.exe -m pip install pandas numpy scipy tqdm bpycv cv2_
 
 ### Execution:
 - Modifiy PATHS in _linemod_generator.blend_

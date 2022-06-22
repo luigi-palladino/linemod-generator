@@ -1,7 +1,11 @@
 # linemod-generator
 Project for Computer Vision course of Professor Castellani @ Master's Degree in Computer Engineering for Robotics and Smart Industry @ UniVR 2022
 
+Generate 6D Pose Synthetic Dataset in Linemod format using Blender. Designed to be used with [EfficientPose](https://github.com/ybkscht/EfficientPose). The code produces rgb images with corresponding 6D Pose and depth images. Intrinsic matrix can also be set and printed from blender.
+
 Refer to _slides.pptx_ for further details.
+
+![Dante Pose](./images/34.png "Dante Pose")
 
 Requirements:
  - Python 3.7 recommended.

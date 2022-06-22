@@ -21,4 +21,4 @@ Execution:
 - Modifiy PATHS in _unique_pipeline.ipynb_
 - Execute _unique_pipeline.ipynb_ to convert in linemod dataset format
 
-For problems write an e-amil @ luigi.palladino@studenti.univr.it
+For problems write an e-mail @ luigi.palladino@studenti.univr.it

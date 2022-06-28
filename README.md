@@ -16,8 +16,9 @@ Refer to _slides.pdf_ for further details.
 - Go to Blender python interactor usually located at: _Blender\3.2\python\bin\\_
 - Copy paste [this script](https://bootstrap.pypa.io/get-pip.py) and install pip executing it in a terminal located in Blender-python folder:
     - _./python.exe get_pip.py_
-- In Blender python folder execute this command:
-    - _./python.exe -m pip install pandas numpy scipy tqdm bpycv cv2_
+- Install [bpycv](https://github.com/DIYer22/bpycv) following installation instructions.
+- Execute in Blender folder:
+>./blender -b --python-expr "from subprocess import sys,call;call([sys.executable]+'-m pip install -U tqdm'.split())"
 
 ### Execution:
 - Modifiy PATHS in _linemod_generator.blend_
